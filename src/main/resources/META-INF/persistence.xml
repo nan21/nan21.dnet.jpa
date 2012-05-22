@@ -114,7 +114,6 @@
 		<class>net.nan21.dnet.module.bd.uom.domain.entity.UomConversion</class>
 
 		<!-- MD -->
-
 		<!--MD:BP  -->
 		<class>net.nan21.dnet.module.md.bp.domain.entity.CustomerGroup</class>
 		<class>net.nan21.dnet.module.md.bp.domain.entity.VendorGroup</class>
@@ -179,7 +178,132 @@
 		<class>net.nan21.dnet.module.md.tx.fin.domain.entity.PaymentItem</class>
 		<class>net.nan21.dnet.module.md.tx.fin.domain.entity.PaymentAmount</class>
 		<class>net.nan21.dnet.module.md.tx.fin.domain.entity.TxAmount</class>
-		
+ 
+		<!-- HR -->
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.Employee</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeContact</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeEducation</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeWorkExperience</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeLicense</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeContactType</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EducationType</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.LicenseType</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeContactRelationship</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmploymentType</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.Grade</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.GradeRate</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.GradeRateValue</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.PayScale</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.PayScalePoint</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.PayScaleRate</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.PayScaleRateValue</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.GradePayScale</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.GradePayScalePoint</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.JobGrade</class>
+		<class>net.nan21.dnet.module.hr.grade.domain.entity.PositionGrade</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.WorkRequirementType</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.WorkRequirement</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.JobType</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.Job</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.JobRequirement</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.Position</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.PositionRequirement</class>
+		<class>net.nan21.dnet.module.hr.job.domain.entity.PositionHierarchy</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.ElementCategory</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.ElementType</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.Element</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.ElementInput</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.ElementValue</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.ElementFormula</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.Payroll</class>
+		<class>net.nan21.dnet.module.hr.payroll.domain.entity.PayrollPeriod</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.RatingScale</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.RatingLevel</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.SkillCategory</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.SkillType</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.Skill</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.Qualification</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.QualificationSkill</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.JobSkill</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.PositionSkill</class>
+		<class>net.nan21.dnet.module.hr.skill.domain.entity.EmployeeSkill</class>
+		<class>net.nan21.dnet.module.hr.time.domain.entity.AbsenceCategory</class>
+		<class>net.nan21.dnet.module.hr.time.domain.entity.AbsenceType</class>
+		<class>net.nan21.dnet.module.hr.time.domain.entity.AbsenceReason</class>
+		<class>net.nan21.dnet.module.hr.time.domain.entity.AbsenceRequest</class>
+		<class>net.nan21.dnet.module.hr.time.domain.entity.AbsenceRequestItem</class>
+		<class>net.nan21.dnet.module.hr.time.domain.entity.Absence</class>
+		<class>net.nan21.dnet.module.hr.time.domain.entity.AbsenceBalance</class>
+		<class>net.nan21.dnet.module.hr.training.domain.entity.CourseCategory</class>
+		<class>net.nan21.dnet.module.hr.training.domain.entity.CourseType</class>
+		<class>net.nan21.dnet.module.hr.training.domain.entity.Course</class>
+		<class>net.nan21.dnet.module.hr.training.domain.entity.JobCourse</class>
+		<class>net.nan21.dnet.module.hr.training.domain.entity.PositionCourse</class>
+		<class>net.nan21.dnet.module.hr.training.domain.entity.EmployeeCourse</class>
+
+		<!-- PJ -->
+		<class>net.nan21.dnet.module.pj.base.domain.entity.ProjectCategory</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.ProjectType</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.ProjectRole</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.ProjectStatus</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueCategory</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueType</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueStatus</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssuePriority</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueSeverity</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueResolution</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueTextType</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueLinkType</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueTaskStatus</class>
+		<class>net.nan21.dnet.module.pj.base.domain.entity.IssueTaskType</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.Project</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.ProjectMember</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.ProjectComponent</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.ProjectVersion</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.Issue</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.IssueTask</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.IssueText</class>
+		<class>net.nan21.dnet.module.pj.md.domain.entity.IssueLink</class>
+
+
+		<!-- SC -->
+		<class>net.nan21.dnet.module.sc.order.domain.entity.PurchaseOrder</class>
+		<class>net.nan21.dnet.module.sc.order.domain.entity.PurchaseOrderItem</class>
+		<class>net.nan21.dnet.module.sc.order.domain.entity.PurchaseOrderTax</class>
+		<class>net.nan21.dnet.module.sc.order.domain.entity.PurchaseOrderItemTax</class>
+		<class>net.nan21.dnet.module.sc.invoice.domain.entity.PurchaseInvoice</class>
+		<class>net.nan21.dnet.module.sc.invoice.domain.entity.PurchaseInvoiceItem</class>
+		<class>net.nan21.dnet.module.sc.invoice.domain.entity.PurchaseInvoiceTax</class>
+		<class>net.nan21.dnet.module.sc.invoice.domain.entity.PurchaseInvoiceItemTax</class>
+		<class>net.nan21.dnet.module.sc.invoice.domain.entity.PurchaseTxAmount</class>
+		<class>net.nan21.dnet.module.sc.invoice.domain.entity.PaymentOut</class>
+		<class>net.nan21.dnet.module.sc.invoice.domain.entity.PaymentOutAmount</class>
+		<class>net.nan21.dnet.module.sc.order.domain.entity.PurchaseInventoryTransaction</class>
+
+		<!-- SD -->
+		<class>net.nan21.dnet.module.sd.order.domain.entity.SalesOrder</class>
+		<class>net.nan21.dnet.module.sd.order.domain.entity.SalesOrderItem</class>
+		<class>net.nan21.dnet.module.sd.order.domain.entity.SalesOrderTax</class>
+		<class>net.nan21.dnet.module.sd.order.domain.entity.SalesOrderItemTax</class>
+		<class>net.nan21.dnet.module.sd.order.domain.entity.SalesInventoryTransaction</class>
+		<class>net.nan21.dnet.module.sd.invoice.domain.entity.SalesInvoice</class>
+		<class>net.nan21.dnet.module.sd.invoice.domain.entity.SalesInvoiceItem</class>
+		<class>net.nan21.dnet.module.sd.invoice.domain.entity.SalesInvoiceTax</class>
+		<class>net.nan21.dnet.module.sd.invoice.domain.entity.SalesInvoiceItemTax</class>
+		<class>net.nan21.dnet.module.sd.invoice.domain.entity.PaymentIn</class>
+		<class>net.nan21.dnet.module.sd.invoice.domain.entity.PaymentInAmount</class>
+		<class>net.nan21.dnet.module.sd.invoice.domain.entity.SalesTxAmount</class>
+		<class>net.nan21.dnet.module.sd.opportunity.domain.entity.Opportunity</class>
+		<class>net.nan21.dnet.module.sd.opportunity.domain.entity.OpportunityStatus</class>
+		<class>net.nan21.dnet.module.sd.opportunity.domain.entity.OpportunityPriority</class>
+		<class>net.nan21.dnet.module.sd.opportunity.domain.entity.OpportunitySource</class>
+		<class>net.nan21.dnet.module.sd.opportunity.domain.entity.OpportunityStage</class>
+		<class>net.nan21.dnet.module.sd.opportunity.domain.entity.OpportunityResultReason</class>
+
+		<!-- FI -->
+		<class>net.nan21.dnet.module.fi.asset.domain.entity.AssetCategory</class>
+		<class>net.nan21.dnet.module.fi.asset.domain.entity.Asset</class>
+		<class>net.nan21.dnet.module.fi.asset.domain.entity.AmortizationItem</class>
 		<properties>
 			<property name="eclipselink.weaving" value="none" />
 		</properties>

@@ -57,6 +57,34 @@
 		</dependency>	
 		<dependency>
 			<groupId>net.nan21.dnet</groupId>
+			<artifactId>nan21.dnet.module.fi.domain</artifactId>
+			<version>1.0.0.RC1</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>	
+		<dependency>
+			<groupId>net.nan21.dnet</groupId>
+			<artifactId>nan21.dnet.module.pj.domain</artifactId>
+			<version>1.0.0.RC1</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>	
+		<dependency>
+			<groupId>net.nan21.dnet</groupId>
+			<artifactId>nan21.dnet.module.hr.domain</artifactId>
+			<version>1.0.0.RC1</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>	
+		<dependency>
+			<groupId>net.nan21.dnet</groupId>
+			<artifactId>nan21.dnet.module.sc.domain</artifactId>
+			<version>1.0.0.RC1</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>	
+		<dependency>
+			<groupId>net.nan21.dnet</groupId>
 			<artifactId>nan21.dnet.module.sd.domain</artifactId>
 			<version>1.0.0.RC1</version>
 			<type>jar</type>
