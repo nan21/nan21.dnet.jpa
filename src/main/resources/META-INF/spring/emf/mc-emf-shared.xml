@@ -20,8 +20,10 @@
 	<!-- Default properties -->
 	<osgi-compendium:cm-properties id="net.nan21.dnet.properties"
 		persistent-id="net.nan21.dnet">
+		
 		<prop key="emf.persistenceUnitName">net.nan21.dnet</prop>
-		<prop key="eclipselink.ddl-generation">drop-and-create-tables</prop>
+		<prop key="eclipselink.target-database">Auto</prop>		
+		<prop key="eclipselink.ddl-generation">create-tables</prop>
 		<prop key="eclipselink.application-location"></prop>
 		<prop key="eclipselink.ddl-generation.output-mode">database</prop>
 		<prop key="eclipselink.logging.level">FINEST</prop>
@@ -58,11 +60,12 @@
 					<constructor-arg value="${emf.persistenceUnitName}" />
 					<constructor-arg ref="osgiDataSource" />
 					<constructor-arg>
-						<props>
+						<props>		
+							<prop key="eclipselink.target-database">${eclipselink.target-database}</prop>
 							<prop key="eclipselink.ddl-generation">${eclipselink.ddl-generation}</prop>
 							<prop key="eclipselink.application-location">${eclipselink.application-location}</prop>
-							<prop key="eclipselink.create-ddl-jdbc-file-name">create_nan21_dnet_module_md.sql</prop>
-							<prop key="eclipselink.drop-ddl-jdbc-file-name">drop_nan21_dnet_module_md.sql</prop>
+							<prop key="eclipselink.create-ddl-jdbc-file-name">create_nan21_dnet.sql</prop>
+							<prop key="eclipselink.drop-ddl-jdbc-file-name">drop_nan21_dnet.sql</prop>
 							<prop key="eclipselink.ddl-generation.output-mode">${eclipselink.ddl-generation.output-mode}</prop>
 							<prop key="eclipselink.logging.level">${eclipselink.logging.level}</prop>
 							<prop key="eclipselink.logging.timestamp">${eclipselink.logging.timestamp}</prop>
