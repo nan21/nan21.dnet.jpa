@@ -98,6 +98,10 @@
 
 		<!-- BD  -->
 
+		<class>net.nan21.dnet.module.bd.attr.domain.entity.AttributeCategory</class>
+		<class>net.nan21.dnet.module.bd.attr.domain.entity.Attribute</class>
+		<class>net.nan21.dnet.module.bd.attr.domain.entity.AttributeSet</class>
+		<class>net.nan21.dnet.module.bd.attr.domain.entity.AttributeSetAttribute</class>
 		<class>net.nan21.dnet.module.bd.contact.domain.entity.CommunicationChannelType</class>
 		<class>net.nan21.dnet.module.bd.contact.domain.entity.CommunicationChannel</class>
 		<class>net.nan21.dnet.module.bd.contact.domain.entity.Person</class>
@@ -131,9 +135,6 @@
 		<class>net.nan21.dnet.module.bd.uom.domain.entity.Uom</class>
 		<class>net.nan21.dnet.module.bd.uom.domain.entity.UomConversion</class>
 
-		<!-- DNET  -->
-
-
 		<!-- FI  -->
 
 		<class>net.nan21.dnet.module.fi.asset.domain.entity.AssetCategory</class>
@@ -147,6 +148,7 @@
 		<class>net.nan21.dnet.module.hr.benefit.domain.entity.Benefit</class>
 		<class>net.nan21.dnet.module.hr.benefit.domain.entity.Option</class>
 		<class>net.nan21.dnet.module.hr.employee.domain.entity.Employee</class>
+		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeAssignment</class>
 		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeContact</class>
 		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeEducation</class>
 		<class>net.nan21.dnet.module.hr.employee.domain.entity.EmployeeWorkExperience</class>
@@ -213,11 +215,6 @@
 		<class>net.nan21.dnet.module.md.activity.domain.entity.CalendarEventPriority</class>
 		<class>net.nan21.dnet.module.md.activity.domain.entity.CalendarEventStatus</class>
 		<class>net.nan21.dnet.module.md.activity.domain.entity.CalendarEvent</class>
-		<class>net.nan21.dnet.module.md.base.attr.domain.entity.AttributeCategory</class>
-		<class>net.nan21.dnet.module.md.base.attr.domain.entity.AttributeType</class>
-		<class>net.nan21.dnet.module.md.base.attr.domain.entity.Attribute</class>
-		<class>net.nan21.dnet.module.md.base.attr.domain.entity.AttributeGroup</class>
-		<class>net.nan21.dnet.module.md.base.attr.domain.entity.AttributeGroupAttribute</class>
 		<class>net.nan21.dnet.module.md.base.period.domain.entity.FiscalYear</class>
 		<class>net.nan21.dnet.module.md.base.period.domain.entity.FiscalPeriod</class>
 		<class>net.nan21.dnet.module.md.base.period.domain.entity.FiscalPeriodStatus</class>
@@ -249,7 +246,7 @@
 		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProdClassification</class>
 		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProductManufacturer</class>
 		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProductSubstitute</class>
-		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProductAttribute</class>
+		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProductAttributeValue</class>
 		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProductAccountGroup</class>
 		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProductAccountGroupAcct</class>
 		<class>net.nan21.dnet.module.md.mm.prod.domain.entity.ProductAccount</class>
