@@ -135,11 +135,16 @@
 		<class>net.nan21.dnet.module.bd.uom.domain.entity.Uom</class>
 		<class>net.nan21.dnet.module.bd.uom.domain.entity.UomConversion</class>
 
+		<!-- DNET  -->
+
+
 		<!-- FI  -->
 
 		<class>net.nan21.dnet.module.fi.asset.domain.entity.AssetCategory</class>
+		<class>net.nan21.dnet.module.fi.asset.domain.entity.AssetCategoryAcct</class>
 		<class>net.nan21.dnet.module.fi.asset.domain.entity.Asset</class>
-		<class>net.nan21.dnet.module.fi.asset.domain.entity.AmortizationItem</class>
+		<class>net.nan21.dnet.module.fi.asset.domain.entity.AssetAcct</class>
+		<class>net.nan21.dnet.module.fi.asset.domain.entity.Amortization</class>
 
 		<!-- HR  -->
 
