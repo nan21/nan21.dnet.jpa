@@ -1,15 +1,15 @@
 Manifest-Version: 1.0
 Import-Bundle: org.eclipse.persistence.core;version="[2.0,2.5)",nan21.
- dnet.core.domain;version="[1.0.0,1.0.0]",nan21.dnet.core.business;ver
- sion="[1.0.0,1.0.0]",nan21.dnet.module.ad.domain;version="[1.0.0,1.0.
- 0]",nan21.dnet.module.bd.domain;version="[1.0.0,1.0.0]",nan21.dnet.mo
- dule.md.domain;version="[1.0.0,1.0.0]",nan21.dnet.module.fi.domain;ve
- rsion="[1.0.0,1.0.0]",nan21.dnet.module.pj.domain;version="[1.0.0,1.0
- .0]",nan21.dnet.module.hr.domain;version="[1.0.0,1.0.0]",nan21.dnet.m
- odule.sc.domain;version="[1.0.0,1.0.0]",nan21.dnet.module.sd.domain;v
- ersion="[1.0.0,1.0.0]"
+ dnet.core.domain;version="[1.1.0,1.1.0]",nan21.dnet.core.business;ver
+ sion="[1.1.0,1.1.0]",nan21.dnet.module.ad.domain;version="[1.1.0,1.1.
+ 0]",nan21.dnet.module.bd.domain;version="[1.1.0,1.1.0]",nan21.dnet.mo
+ dule.md.domain;version="[1.1.0,1.1.0]",nan21.dnet.module.fi.domain;ve
+ rsion="[1.1.0,1.1.0]",nan21.dnet.module.pj.domain;version="[1.1.0,1.1
+ .0]",nan21.dnet.module.hr.domain;version="[1.1.0,1.1.0]",nan21.dnet.m
+ odule.sc.domain;version="[1.1.0,1.1.0]",nan21.dnet.module.sd.domain;v
+ ersion="[1.1.0,1.1.0]"
 Bundle-Vendor: Nan21 
-Bundle-Version: 1.0.0
+Bundle-Version: 1.1.0
 Tool: Bundlor 1.0.0.RELEASE
 Bundle-Name: DNet JPA
 Bundle-ManifestVersion: 2
