@@ -14,6 +14,34 @@
 	<description>DNet JPA - Shared EMFR and transaction manager provider</description>
 	<packaging>jar</packaging>
 
+	
+	<url>http://www.dnet-ebusiness-suite.com/www</url>
+
+	<licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>team</id>
+            <name>nan21 Team</name>
+            <roles>
+                <role>Owner</role>
+            </roles>
+        </developer>
+    </developers>
+
+	<scm>
+        <url>https://github.com/nan21/nan21.dnet.jpa</url>
+        <connection>scm:git:https://github.com/nan21/nan21.dnet.jpa.git</connection>
+        <developerConnection>scm:git:https://github.com/nan21/nan21.dnet.jpa.git</developerConnection>
+    </scm>
+    
+	
 	<properties>
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<jpa.version>2.0.3</jpa.version>
@@ -154,8 +182,8 @@
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
-				</configuration>							</plugin>
-			 
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
