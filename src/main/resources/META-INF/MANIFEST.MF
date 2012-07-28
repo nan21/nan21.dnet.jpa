@@ -1,30 +1,33 @@
 Manifest-Version: 1.0
+Built-By: amathe
+Tool: Bundlor 1.1.0.RELEASE
+Bundle-Name: DNet JPA
+Created-By: Maven Integration for Eclipse
 Import-Bundle: org.eclipse.persistence.core;version="[2.0,2.5)",nan21.
- dnet.core.domain;version="[1.0.2,1.0.2]",nan21.dnet.core.business;ver
- sion="[1.0.2,1.0.2]",nan21.dnet.module.ad.domain;version="[1.0.2,1.0.
- 2]",nan21.dnet.module.bd.domain;version="[1.0.2,1.0.2]",nan21.dnet.mo
- dule.md.domain;version="[1.0.2,1.0.2]",nan21.dnet.module.fi.domain;ve
- rsion="[1.0.2,1.0.2]",nan21.dnet.module.pj.domain;version="[1.0.2,1.0
- .2]",nan21.dnet.module.hr.domain;version="[1.0.2,1.0.2]",nan21.dnet.m
- odule.sc.domain;version="[1.0.2,1.0.2]",nan21.dnet.module.sd.domain;v
- ersion="[1.0.2,1.0.2]"
+ dnet.core.domain;version="[1.0.2,1.0.3)",nan21.dnet.core.business;ver
+ sion="[1.0.2,1.0.3)",nan21.dnet.module.ad.domain;version="[1.0.2,1.0.
+ 3)",nan21.dnet.module.bd.domain;version="[1.0.2,1.0.3)",nan21.dnet.mo
+ dule.md.domain;version="[1.0.2,1.0.3)",nan21.dnet.module.fi.domain;ve
+ rsion="[1.0.2,1.0.3)",nan21.dnet.module.pj.domain;version="[1.0.2,1.0
+ .3)",nan21.dnet.module.hr.domain;version="[1.0.2,1.0.3)",nan21.dnet.m
+ odule.sc.domain;version="[1.0.2,1.0.3)",nan21.dnet.module.sd.domain;v
+ ersion="[1.0.2,1.0.3)"
 Bundle-Vendor: Nan21 
 Bundle-Version: 1.0.2
-Tool: Bundlor 1.0.0.RELEASE
-Bundle-Name: DNet JPA
+Build-Jdk: 1.6.0_33
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
-Bundle-SymbolicName: nan21.dnet.jpa
 Import-Package: javax.persistence;version="[2.0,2.1)",javax.persistenc
  e.criteria;version="[2.0,2.1)",javax.persistence.metamodel;version="[
  2.0,2.1)",javax.persistence.spi;version="[2.0,2.1)",javax.sql,javax.v
  alidation;version="[1.0,2.0)",net.nan21.dnet.core.api,net.nan21.dnet.
  core.business.persistenceunit,org.aopalliance.aop;version="[1.0,2.0)"
  ,org.hibernate.validator;version="[4.0,5.0)",org.hibernate.validator.
- constraints;version="[4.0,5.0)",org.springframework.aop;version="[3.0
- ,3.1)",org.springframework.aop.framework;version="[3.0,3.1)",org.spri
- ngframework.context.weaving;version="[3.0,3.1)",org.springframework.o
+ constraints;version="[4.0,5.0)",org.springframework.aop;version="[3.1
+ ,3.2)",org.springframework.aop.framework;version="[3.1,3.2)",org.spri
+ ngframework.context.weaving;version="[3.1,3.2)",org.springframework.o
  rm.jpa,org.springframework.orm.jpa.vendor,org.springframework.transac
- tion;version="[3.0,3.1)",org.springframework.transaction.aspectj;vers
- ion="[3.0,3.1)"
+ tion;version="[3.1,3.2)",org.springframework.transaction.aspectj;vers
+ ion="[3.1,3.2)"
+Bundle-SymbolicName: nan21.dnet.jpa
 
