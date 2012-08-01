@@ -4,16 +4,16 @@ Tool: Bundlor 1.1.0.RELEASE
 Bundle-Name: DNet JPA
 Created-By: Maven Integration for Eclipse
 Import-Bundle: org.eclipse.persistence.core;version="[2.0,2.5)",nan21.
- dnet.core.domain;version="[1.0.2,1.0.3)",nan21.dnet.core.business;ver
- sion="[1.0.2,1.0.3)",nan21.dnet.module.ad.domain;version="[1.0.2,1.0.
- 3)",nan21.dnet.module.bd.domain;version="[1.0.2,1.0.3)",nan21.dnet.mo
- dule.md.domain;version="[1.0.2,1.0.3)",nan21.dnet.module.fi.domain;ve
- rsion="[1.0.2,1.0.3)",nan21.dnet.module.pj.domain;version="[1.0.2,1.0
- .3)",nan21.dnet.module.hr.domain;version="[1.0.2,1.0.3)",nan21.dnet.m
- odule.sc.domain;version="[1.0.2,1.0.3)",nan21.dnet.module.sd.domain;v
- ersion="[1.0.2,1.0.3)"
+ dnet.core.domain;version="[1.0.3,1.0.4)",nan21.dnet.core.business;ver
+ sion="[1.0.3,1.0.4)",nan21.dnet.module.ad.domain;version="[1.0.3,1.0.
+ 4)",nan21.dnet.module.bd.domain;version="[1.0.3,1.0.4)",nan21.dnet.mo
+ dule.md.domain;version="[1.0.3,1.0.4)",nan21.dnet.module.fi.domain;ve
+ rsion="[1.0.3,1.0.4)",nan21.dnet.module.pj.domain;version="[1.0.3,1.0
+ .4)",nan21.dnet.module.hr.domain;version="[1.0.3,1.0.4)",nan21.dnet.m
+ odule.sc.domain;version="[1.0.3,1.0.4)",nan21.dnet.module.sd.domain;v
+ ersion="[1.0.3,1.0.4)"
 Bundle-Vendor: Nan21 
-Bundle-Version: 1.0.2
+Bundle-Version: 1.0.3
 Build-Jdk: 1.6.0_33
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
